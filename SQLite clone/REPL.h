@@ -11,6 +11,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
+#include <errno.h>
+#include "DATA_FIELD.h"
 
 //Buffer Stream
 typedef struct {
@@ -40,6 +43,7 @@ typedef enum { STATEMENT_INSERT, STATEMENT_SELECT } StatementType;
 
 typedef struct {
     StatementType type;
+    Row Row_to_insert;
 } Statement;
 
 PrepareResult prepare_statement(InputBuffer* input_buffer, Statement* statement);

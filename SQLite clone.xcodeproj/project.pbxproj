@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF7BBF242A1C194B00530329 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBF232A1C194B00530329 /* main.c */; };
 		CF7BBF2C2A1C19D300530329 /* REPL.c in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBF2B2A1C19D300530329 /* REPL.c */; };
+		CF7BBF2F2A1D58E600530329 /* DATA_FIELD.c in Sources */ = {isa = PBXBuildFile; fileRef = CF7BBF2E2A1D58E600530329 /* DATA_FIELD.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		CF7BBF232A1C194B00530329 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		CF7BBF2A2A1C19D300530329 /* REPL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REPL.h; sourceTree = "<group>"; };
 		CF7BBF2B2A1C19D300530329 /* REPL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = REPL.c; sourceTree = "<group>"; };
+		CF7BBF2D2A1D58E600530329 /* DATA_FIELD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DATA_FIELD.h; sourceTree = "<group>"; };
+		CF7BBF2E2A1D58E600530329 /* DATA_FIELD.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DATA_FIELD.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				CF7BBF232A1C194B00530329 /* main.c */,
 				CF7BBF2B2A1C19D300530329 /* REPL.c */,
 				CF7BBF2A2A1C19D300530329 /* REPL.h */,
+				CF7BBF2E2A1D58E600530329 /* DATA_FIELD.c */,
+				CF7BBF2D2A1D58E600530329 /* DATA_FIELD.h */,
 			);
 			path = "SQLite clone";
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7BBF2C2A1C19D300530329 /* REPL.c in Sources */,
+				CF7BBF2F2A1D58E600530329 /* DATA_FIELD.c in Sources */,
 				CF7BBF242A1C194B00530329 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

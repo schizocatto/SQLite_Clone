@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "REPL.h"
+#include "DATA_FIELD.h"
 
 int main(int argc, const char * argv[]) {
     InputBuffer* input_buffer = new_input_buffer();
